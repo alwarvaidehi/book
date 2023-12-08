@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test1]">
+  <test thread-count="5" name="POMframework for Login(failed)">
+    <classes>
+      <class name="tests.LoginPageTest">
+        <methods>
+          <include name="test_login"/>
+          <include name="generateReports"/>
+          <include name="InitalizeExtentReport"/>
+          <include name="getnameMethod"/>
+          <include name="close_browser"/>
+          <include name="start_browser"/>
+          <include name="generateTestStatus"/>
+        </methods>
+      </class> <!-- tests.LoginPageTest -->
+      <class name="tests.SearchAndTodaysDealsteps">
+        <methods>
+          <include name="InitalizeExtentReport"/>
+          <include name="getnameMethod"/>
+          <include name="search"/>
+          <include name="generateReports"/>
+          <include name="dealstoday"/>
+          <include name="generateTestStatus"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.SearchAndTodaysDealsteps -->
+      <class name="tests.FictionBooksTest">
+        <methods>
+          <include name="generateReports"/>
+          <include name="test_login"/>
+          <include name="InitalizeExtentReport"/>
+          <include name="getnameMethod"/>
+          <include name="start_browser"/>
+          <include name="buynow_click"/>
+          <include name="FictionBooksclick"/>
+          <include name="generateTestStatus"/>
+          <include name="book1_click"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- tests.FictionBooksTest -->
+    </classes>
+  </test> <!-- POMframework for Login(failed) -->
+</suite> <!-- Failed suite [test1] -->

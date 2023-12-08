@@ -1,0 +1,22 @@
+
+
+<suite name="test1" verbose="1">
+
+<test name="POMframework for Login">
+<classes>
+<class name="tests.LoginPageTest"></class>
+</classes>
+</test>
+
+
+<test name="POMframework for fiction">
+<classes>
+<class name="tests.FictionBooksTest"></class>
+</classes>
+</test>
+
+<test name="pom framework on search item and todays deal"><classes>
+<class name="tests.SearchAndTodaysDealsteps"></class>
+</classes>
+</test>
+</suite>
